@@ -15,7 +15,7 @@ variable "client_certificate_path" {
 variable "client_certificate_password" {
      type = string
      sensitive = true
-     default = "Azure@1234"
+#     default = "Azure@1234"
 }
 
 # We strongly recommend using the required_providers block to set the
