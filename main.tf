@@ -40,7 +40,7 @@ provider "azurerm" {
   tenant_id                   = "0e3e2e88-8caf-41ca-b4da-e3b33b6c52ec"
 }
 
-#resource "azurerm_resource_group" "example" {
-#  name     = "susie-test-example-amex-2"
-#  location = "Central US"
-#}
+resource "azurerm_resource_group" "example" {
+  name     = "susie-test-example-amex-3"
+  location = "Central US"
+}
